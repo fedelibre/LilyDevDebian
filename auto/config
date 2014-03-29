@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+    --architectures i386 \
+    --linux-flavours 686-pae \
+    --distribution wheezy \
+    --debian-installer live \
+    --apt-recommends false \
+	--apt-options "--yes --no-install-recommends" \
+	--apt-secure true \
+	--apt-indices false \
+	--apt-source-archives false \
+	"${@}"

@@ -1,0 +1,66 @@
+# Minimal desktop and useful extra packages
+task-lxde-desktop iceweasel
+virtualbox-guest-dkms virtualbox-guest-x11
+debian-installer-launcher locales
+git
+astyle emacs xpdf msmtp
+
+# Recommended packages are disabled to save space, but some recommended packages
+# are needed to make the iso work correctly.
+lxpolkit
+policykit-1
+user-setup
+
+# LilyPond dependencies
+autoconf
+autotools-dev
+bison
+curl
+dblatex
+debhelper
+emacs-intl-fonts
+flex
+fontforge
+gettext
+ghostscript
+groff
+gsfonts
+gsfonts-x11
+guile-1.8-dev
+g++
+help2man
+imagemagick
+libfontconfig1-dev
+libfreetype6-dev
+libgmp3-dev
+libltdl-dev
+libpango1.0-dev
+m4
+mftrace
+netpbm
+pkg-config
+python-all-dev
+quilt
+rsync
+texi2html
+texinfo
+texlive-fonts-recommended
+texlive-generic-recommended
+texlive-lang-cyrillic
+texlive-latex-base
+texlive-latex-recommended
+texlive-metapost
+ttf-dejavu
+ttf-freefont
+ttf-kochi-gothic
+ttf-kochi-mincho
+xfonts-intl-arabic
+xfonts-intl-asian
+xfonts-intl-chinese
+xfonts-intl-chinese-big
+xfonts-intl-european
+xfonts-intl-japanese
+xfonts-intl-japanese-big
+xfonts-intl-phonetic
+zip
+

@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# Download all the required Git repositories
+# I had problems with SSL certificates when using https to download from Github,
+# so I switched to git protocol.
+git clone git://github.com/gperciva/lilypond-extra.git /etc/skel/lilypond-extra
+git clone git://github.com/gperciva/git-cl.git /etc/skel/git-cl
+git clone git://git.sv.gnu.org/lilypond.git /etc/skel/lilypond-git
+
+# The repositories are cloned during the build of the image, so we'd rather
+# use the local repositories, possibly up-to-date
+#git clone ~/lilypond-git /etc/skel/lilypond-git
+#git clone ~/lilypond-extra /etc/skel/lilypond-extra
+#git clone ~/git-cl /etc/skel/git-cl
