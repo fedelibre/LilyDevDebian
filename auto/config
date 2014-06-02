@@ -5,6 +5,7 @@ set -e
 lb config noauto \
     --architectures i386 \
     --linux-flavours 686-pae \
+    --linux-packages "linux-image linux-headers" \
     --distribution wheezy \
     --debian-installer live \
     --apt-recommends false \
