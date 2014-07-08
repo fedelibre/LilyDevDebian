@@ -2,7 +2,7 @@
 task-lxde-desktop iceweasel
 virtualbox-guest-dkms virtualbox-guest-x11
 debian-installer-launcher locales
-git
+git gitk openssh-client
 astyle emacs xpdf msmtp
 
 # Recommended packages are disabled to save space, but some recommended packages
@@ -10,6 +10,7 @@ astyle emacs xpdf msmtp
 lxpolkit
 policykit-1
 user-setup
+sudo
 
 # LilyPond dependencies
 autoconf
