@@ -1,0 +1,31 @@
+#!/bin/sh
+
+# Variables defined in /usr/lib/live/build/binary_syslinux.
+# See also http://live-systems.org/gitweb/?p=live-build.git;a=summary
+
+_DATE=$(date -R)
+_YEAR="$(date +%Y)"
+_MONTH="$(date +%m)"
+_DAY="$(date +%d)"
+_HOUR="$(date +%H)"
+_MINUTE="$(date +%M)"
+_SECOND="$(date +%S)"
+
+# Copy custom SVG file with LilyPond logo
+cp splash.svg binary/isolinux/
+
+# Replace text and convert to PNG.
+sed -i -e "s|@PROJECT@|LilyDev|" \
+       -e "s|@VERSION@|3.0|" \
+	   -e "s|@DATE@|${_DATE}|" \
+	   -e "s|@YEAR@|${_YEAR}|" \
+       -e "s|@MONTH@|${_MONTH}|" \
+       -e "s|@DAY@|${_DAY}|" \
+	   -e "s|@HOUR@|${_HOUR}|" \
+	   -e "s|@MINUTE@|${_MINUTE}|" \
+	   -e "s|@SECOND@|${_SECOND}|" \
+    binary/isolinux/splash.svg
+
+rsvg-convert --format png --height 480 --width 640 binary/isolinux/splash.svg -o binary/isolinux/splash.png
+rm -f binary/isolinux/splash.svg
+

@@ -23,10 +23,10 @@ Notes for maintainers
 ---------------------
 
 This version of LilyDev has been created created with
-`Debian live-build <http://live.debian.net/>`_ version 3.x.  All you
-need to install is the following package::
+`Debian live-build <http://live.debian.net/>`_ version 3.  You
+should install the following packages::
 
-    # apt-get install live-build
+    # apt-get install live-build librsvg2-bin
 
 To generate a new image, run this command from the root
 directory of this project::
