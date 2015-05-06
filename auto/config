@@ -6,11 +6,12 @@ lb config noauto \
     --architectures i386 \
     --linux-flavours 686-pae \
     --linux-packages "linux-image linux-headers" \
-    --distribution wheezy \
+    --distribution jessie \
     --debian-installer live \
     --apt-recommends false \
 	--apt-options "--yes --no-install-recommends" \
 	--apt-secure true \
 	--apt-indices false \
 	--apt-source-archives false \
+	--archive-areas "main contrib non-free" \
 	"${@}"
