@@ -1,9 +1,10 @@
 # Minimal desktop and useful extra packages
 task-lxde-desktop iceweasel
 virtualbox-guest-dkms virtualbox-guest-x11
-debian-installer-launcher locales
+locales
 git gitk openssh-client
 astyle emacs xpdf msmtp
+gedit geany
 
 # Recommended packages are disabled to save space, but some recommended packages
 # are needed to make the iso work correctly.
