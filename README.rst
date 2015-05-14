@@ -1,7 +1,7 @@
 LilyDev
 =======
 
-LilyDev is a live CD containing a basic Debian operating system and all the
+LilyDev is an ISO image containing a basic Debian operating system and all the
 dependencies, settings and repositories required to start contributing to
 `LilyPond <http://lilypond.org/>`_.
 
@@ -9,24 +9,27 @@ dependencies, settings and repositories required to start contributing to
 Notes for users
 ---------------
 
-Due to a bug in the current debian installer, you should choose
-english locale during the installation of the image in your
-virtual machine.  You can reconfigure the locale after the installation::
-
-    # dpkg-reconfigure locales
-
 The image contains a 686-pae kernel, so you have to enable PAE in VirtualBox
 preferences: `System>Processor>Extended features: Enable PAE/NX`.
+
+When you launch the ISO, choose the graphical install, then your language and
+follow the install instructions.
 
 
 Notes for maintainers
 ---------------------
 
-This version of LilyDev has been created created with
-`Debian live-build <http://live.debian.net/>`_ version 3.  You
-should install the following packages::
+LilyDev is built with the latest stable version of
+`Debian live-build <http://live.debian.net/>`_, i.e. the version in the
+latest stable release of Debian.  You should install the following packages::
 
     # apt-get install live-build librsvg2-bin
+
+In case you have a more recent and unstable version of live-build in your
+repository, you can download the stable .deb package from the live-build
+website and hold it to prevent the automatic update::
+
+    # apt-mark hold live-build
 
 To generate a new image, run this command from the root
 directory of this project::
@@ -51,7 +54,6 @@ are tracked by git::
     auto/config                                  # main settings
     config/apt/preferences                       # APT pinning
     config/archives/backports.list.chroot        # debian backports repositories
-    config/hooks/lilyrepositories.hook.chroot    # hook to download git repositories
     config/includes.chroot/etc/skel/             # contains configuration files for user
     config/package-lists/my.list.chroot          # list of required packages
 

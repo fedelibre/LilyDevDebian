@@ -16,7 +16,7 @@ cp splash.svg binary/isolinux/
 
 # Replace text and convert to PNG.
 sed -i -e "s|@PROJECT@|LilyDev|" \
-       -e "s|@VERSION@|3.0|" \
+       -e "s|@VERSION@|4.0|" \
 	   -e "s|@DATE@|${_DATE}|" \
 	   -e "s|@YEAR@|${_YEAR}|" \
        -e "s|@MONTH@|${_MONTH}|" \
