@@ -14,109 +14,10 @@
    height="480"
    id="svg3320"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="splash.svg">
   <defs
      id="defs3322">
-    <radialGradient
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.402663,0,0,1.115648,-6.237984,0.0533075)"
-       r="18.370251"
-       fy="10.943316"
-       fx="15.491823"
-       cy="10.943316"
-       cx="15.491823"
-       id="radialGradient2813"
-       xlink:href="#linearGradient2807"
-       inkscape:collect="always" />
-    <radialGradient
-       r="35.934704"
-       fy="424.15677"
-       fx="131.23691"
-       cy="424.15677"
-       cx="131.23691"
-       gradientTransform="matrix(0.101953,-0.04272301,0.09621296,0.229599,-48.67227,-64.24148)"
-       gradientUnits="userSpaceOnUse"
-       id="radialGradient2798"
-       xlink:href="#linearGradient8543"
-       inkscape:collect="always" />
-    <radialGradient
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,0.415385,0,26.70146)"
-       r="30.365856"
-       fy="45.673546"
-       fx="29.898689"
-       cy="45.673546"
-       cx="29.898689"
-       id="radialGradient18290"
-       xlink:href="#linearGradient18284"
-       inkscape:collect="always" />
-    <radialGradient
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.105628,-0.04514018,0.06692574,0.156607,-46.01605,-24.35485)"
-       r="103.26014"
-       fy="409.83737"
-       fx="340.35886"
-       cy="409.83737"
-       cx="340.35886"
-       id="radialGradient13895"
-       xlink:href="#linearGradient8543"
-       inkscape:collect="always" />
-    <radialGradient
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.08174351,0.01024998,-0.04335971,0.345793,6.123413,-84.50421)"
-       r="38.451698"
-       fy="270.67969"
-       fx="424.99243"
-       cy="270.67969"
-       cx="424.99243"
-       id="radialGradient11208"
-       xlink:href="#linearGradient11202"
-       inkscape:collect="always" />
-    <radialGradient
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.272962,-0.071724,0.05616202,0.213737,-78.54657,-24.30491)"
-       r="48.782982"
-       fy="243.06874"
-       fx="293.81989"
-       cy="243.06874"
-       cx="293.81989"
-       id="radialGradient10317"
-       xlink:href="#linearGradient8543"
-       inkscape:collect="always" />
-    <radialGradient
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.224796,0.01017229,-0.00975947,0.215674,-73.87964,-54.89804)"
-       r="40.975471"
-       fy="286.46918"
-       fx="500.97794"
-       cy="286.46918"
-       cx="500.97794"
-       id="radialGradient9434"
-       xlink:href="#linearGradient8543"
-       inkscape:collect="always" />
-    <radialGradient
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.163532,-0.01065754,0.01078108,0.165425,-46.18187,-65.65506)"
-       r="235.88632"
-       fy="685.99139"
-       fx="420.87839"
-       cy="685.99139"
-       cx="420.87839"
-       id="radialGradient8549"
-       xlink:href="#linearGradient8543"
-       inkscape:collect="always" />
-    <radialGradient
-       r="297.21338"
-       fy="-72.420044"
-       fx="336.73767"
-       cy="-72.420044"
-       cx="336.73767"
-       gradientTransform="matrix(0.136507,0,-4.484926e-5,0.07137743,-23.39816,12.31028)"
-       gradientUnits="userSpaceOnUse"
-       id="radialGradient7666"
-       xlink:href="#linearGradient5012"
-       inkscape:collect="always" />
     <linearGradient
        id="linearGradient5012">
       <stop
@@ -165,18 +66,6 @@
          offset="1"
          id="stop19165" />
     </linearGradient>
-    <linearGradient
-       id="linearGradient2807"
-       inkscape:collect="always">
-      <stop
-         id="stop2809"
-         offset="0"
-         style="stop-color:#ffffff;stop-opacity:1;" />
-      <stop
-         id="stop2811"
-         offset="1"
-         style="stop-color:#ffffff;stop-opacity:0;" />
-    </linearGradient>
     <inkscape:perspective
        id="perspective47"
        inkscape:persp3d-origin="24 : 16 : 1"
@@ -184,46 +73,6 @@
        inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_x="0 : 24 : 1"
        sodipodi:type="inkscape:persp3d" />
-    <radialGradient
-       gradientTransform="matrix(1,0,0,1.013572,0,-1.0236264)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#linearGradient3308"
-       id="radialGradient3314"
-       fy="83.386719"
-       fx="90.575012"
-       r="29.610207"
-       cy="83.386719"
-       cx="90.575012" />
-    <radialGradient
-       gradientTransform="matrix(1,0,0,0.9939293,0,0.5760033)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#linearGradient3277"
-       id="radialGradient3302"
-       fy="94.882584"
-       fx="343.39087"
-       r="52.186886"
-       cy="94.882584"
-       cx="343.39087" />
-    <radialGradient
-       gradientTransform="matrix(1,0,0,0.8547144,242.77108,20.87401)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#linearGradient3243"
-       id="radialGradient3300"
-       fy="93.919113"
-       fx="100.44232"
-       r="72.179527"
-       cy="93.919113"
-       cx="100.44232" />
-    <radialGradient
-       gradientTransform="matrix(0.7967507,0.5836919,-0.5217273,0.7121678,303.65773,-37.387246)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#linearGradient3229"
-       id="radialGradient3298"
-       fy="62.611969"
-       fx="116.44111"
-       r="84.505844"
-       cy="62.611969"
-       cx="116.44111" />
     <radialGradient
        gradientTransform="matrix(1,0,0,0.8731028,242.77108,20.38086)"
        gradientUnits="userSpaceOnUse"
@@ -234,85 +83,6 @@
        r="83.039093"
        cy="103.64254"
        cx="107.71911" />
-    <radialGradient
-       gradientTransform="matrix(1,0,0,0.9939293,0,0.5760033)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#linearGradient3277"
-       id="radialGradient3275"
-       fy="94.882584"
-       fx="343.39087"
-       r="52.186886"
-       cy="94.882584"
-       cx="343.39087" />
-    <radialGradient
-       gradientTransform="matrix(1,0,0,0.8547144,-172.02929,-78.916172)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#linearGradient3243"
-       id="radialGradient3259"
-       fy="93.919113"
-       fx="100.44232"
-       r="72.179527"
-       cy="93.919113"
-       cx="100.44232" />
-    <radialGradient
-       gradientTransform="matrix(0.7967507,0.5836919,-0.5217273,0.7121678,-111.14264,-137.17743)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#linearGradient3229"
-       id="radialGradient3257"
-       fy="62.611969"
-       fx="116.44111"
-       r="84.505844"
-       cy="62.611969"
-       cx="116.44111" />
-    <radialGradient
-       gradientTransform="matrix(1,0,0,0.8731028,-172.02929,-79.409322)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#linearGradient3208"
-       id="radialGradient3255"
-       fy="103.64254"
-       fx="107.71911"
-       r="83.039093"
-       cy="103.64254"
-       cx="107.71911" />
-    <radialGradient
-       gradientTransform="matrix(1,0,0,0.8547144,242.77108,20.87401)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#linearGradient3243"
-       id="radialGradient3241"
-       fy="93.919113"
-       fx="100.44232"
-       r="72.179527"
-       cy="93.919113"
-       cx="100.44232" />
-    <radialGradient
-       gradientTransform="matrix(0.7967507,0.5836919,-0.5217273,0.7121678,303.65773,-37.387246)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#linearGradient3229"
-       id="radialGradient3227"
-       fy="62.611969"
-       fx="116.44111"
-       r="84.505844"
-       cy="62.611969"
-       cx="116.44111" />
-    <radialGradient
-       gradientTransform="matrix(1,0,0,0.8731028,242.77108,20.38086)"
-       gradientUnits="userSpaceOnUse"
-       xlink:href="#linearGradient3208"
-       id="radialGradient3219"
-       fy="103.64254"
-       fx="107.71911"
-       r="83.039093"
-       cy="103.64254"
-       cx="107.71911" />
-    <inkscape:path-effect
-       id="path-effect2423"
-       effect="bend_path" />
-    <inkscape:path-effect
-       id="path-effect2425"
-       effect="bend_path" />
-    <inkscape:path-effect
-       id="path-effect2428"
-       effect="bend_path" />
     <linearGradient
        id="linearGradient3208">
       <stop
@@ -324,6 +94,16 @@
          style="stop-color:#9b9b9b;stop-opacity:1"
          id="stop3212" />
     </linearGradient>
+    <radialGradient
+       gradientTransform="matrix(0.7967507,0.5836919,-0.5217273,0.7121678,303.65773,-37.387246)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient3229"
+       id="radialGradient3298"
+       fy="62.611969"
+       fx="116.44111"
+       r="84.505844"
+       cy="62.611969"
+       cx="116.44111" />
     <linearGradient
        id="linearGradient3229">
       <stop
@@ -335,6 +115,16 @@
          style="stop-color:#c7c7c7;stop-opacity:1"
          id="stop3233" />
     </linearGradient>
+    <radialGradient
+       gradientTransform="matrix(1,0,0,0.8547144,242.77108,20.87401)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient3243"
+       id="radialGradient3300"
+       fy="93.919113"
+       fx="100.44232"
+       r="72.179527"
+       cy="93.919113"
+       cx="100.44232" />
     <linearGradient
        id="linearGradient3243">
       <stop
@@ -346,6 +136,16 @@
          style="stop-color:#e7e7e7;stop-opacity:1"
          id="stop3247" />
     </linearGradient>
+    <radialGradient
+       gradientTransform="matrix(1,0,0,0.9939293,0,0.5760033)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient3277"
+       id="radialGradient3302"
+       fy="94.882584"
+       fx="343.39087"
+       r="52.186886"
+       cy="94.882584"
+       cx="343.39087" />
     <linearGradient
        id="linearGradient3277">
       <stop
@@ -357,17 +157,16 @@
          style="stop-color:#f3f3f3;stop-opacity:1"
          id="stop3281" />
     </linearGradient>
-    <linearGradient
-       id="linearGradient3283">
-      <stop
-         offset="0"
-         style="stop-color:#ffffff;stop-opacity:1"
-         id="stop3285" />
-      <stop
-         offset="1"
-         style="stop-color:#e7e7e7;stop-opacity:1"
-         id="stop3287" />
-    </linearGradient>
+    <radialGradient
+       gradientTransform="matrix(1,0,0,1.013572,0,-1.0236264)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient3308"
+       id="radialGradient3314"
+       fy="83.386719"
+       fx="90.575012"
+       r="29.610207"
+       cy="83.386719"
+       cx="90.575012" />
     <linearGradient
        id="linearGradient3308">
       <stop
@@ -392,16 +191,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.775"
-     inkscape:cx="579.52863"
+     inkscape:cx="574.36733"
      inkscape:cy="250.84337"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-width="1016"
+     inkscape:window-height="570"
      inkscape:window-x="0"
      inkscape:window-y="27"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata3325">
     <rdf:RDF>
@@ -427,39 +226,64 @@
        x="0"
        y="572.36218" />
     <text
-       transform="scale(1.0000015,0.9999985)"
+       transform="scale(1.0000015,0.99999849)"
        sodipodi:linespacing="100%"
        id="text3002"
-       y="629.20685"
+       y="619.20685"
        x="190.68135"
        style="font-size:35.65467453px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"
        xml:space="preserve"><tspan
-         y="629.20685"
+         y="619.20685"
          x="190.68135"
          sodipodi:role="line"
          style="font-size:19.99996948px;font-style:normal;font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold"
-         id="tspan3041">@PROJECT@ @VERSION@</tspan><tspan
-         y="649.20679"
+         id="tspan3045">@PROJECT@ @VERSION@ (@DISTRIBUTION@)</tspan><tspan
+         y="639.20679"
+         x="190.68135"
+         sodipodi:role="line"
+         style="font-size:19.99996948px;font-style:normal;font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold"
+         id="tspan3041">@ARCHITECTURE@</tspan><tspan
+         y="659.20679"
          x="190.68135"
          sodipodi:role="line"
          style="font-size:19.99996948px;font-style:normal;font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold"
          id="tspan3037" /><tspan
-         y="669.20679"
+         y="679.20679"
          x="190.68135"
          sodipodi:role="line"
          style="font-size:19.99996948px;font-style:normal;font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold"
          id="tspan3039">Build: @YEAR@-@MONTH@-@DAY@ @HOUR@:@MINUTE@:@SECOND@</tspan><tspan
-         y="689.20679"
+         y="699.20673"
          x="190.68135"
          sodipodi:role="line"
          style="font-size:19.99996948px;font-style:normal;font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold"
          id="tspan3098" /><tspan
-         y="709.20673"
+         y="719.20667"
          x="190.68135"
          sodipodi:role="line"
          style="font-size:19.99996948px;font-style:normal;font-weight:normal;-inkscape-font-specification:DejaVu Sans"
-         id="tspan3012" /><tspan
-         y="729.20667"
+         id="tspan3102">linux: @LINUX_VERSIONS@</tspan><tspan
+         y="739.20667"
+         x="190.68135"
+         sodipodi:role="line"
+         style="font-size:19.99996948px;font-style:normal;font-weight:normal;-inkscape-font-specification:DejaVu Sans"
+         id="tspan3076">live-build: @LIVE_BUILD_VERSION@</tspan><tspan
+         y="759.20667"
+         x="190.68135"
+         sodipodi:role="line"
+         style="font-size:19.99996948px;font-style:normal;font-weight:normal;-inkscape-font-specification:DejaVu Sans"
+         id="tspan3068">live-boot: @LIVE_BOOT_VERSION@</tspan><tspan
+         y="779.2066"
+         x="190.68135"
+         sodipodi:role="line"
+         style="font-size:19.99996948px;font-style:normal;font-weight:normal;-inkscape-font-specification:DejaVu Sans"
+         id="tspan3070">live-config: @LIVE_CONFIG_VERSION@</tspan><tspan
+         y="799.20654"
+         x="190.68135"
+         sodipodi:role="line"
+         style="font-size:19.99996948px;font-style:normal;font-weight:normal;-inkscape-font-specification:DejaVu Sans"
+         id="tspan3012">live-tools: @LIVE_TOOLS_VERSION@</tspan><tspan
+         y="819.20654"
          x="190.68135"
          sodipodi:role="line"
          style="font-size:19.99996948px;font-style:normal;font-weight:normal;-inkscape-font-specification:DejaVu Sans"
@@ -476,15 +300,15 @@
          id="tspan3116" /></text>
     <g
        id="g3379"
-       transform="matrix(0.5992187,0,0,0.5992187,24.461983,598.87151)">
+       transform="matrix(0.5992187,0,0,0.5992187,25.355922,593.18085)">
       <path
-         style="fill:#395a40;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         style="fill:#395a40;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="path3779"
          transform="translate(-109.76671,-607.34885)"
          d="m 328.81357,743.88763 a 108.47458,76.271187 0 1 1 -216.94916,0 108.47458,76.271187 0 1 1 216.94916,0 z"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:#85b08e;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         style="fill:#85b08e;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="path3777"
          transform="translate(-109.7667,-614.15186)"
          d="m 328.81357,743.88763 a 108.47458,76.271187 0 1 1 -216.94916,0 108.47458,76.271187 0 1 1 216.94916,0 z"
