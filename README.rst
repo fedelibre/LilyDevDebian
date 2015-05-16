@@ -26,8 +26,18 @@ latest stable release of Debian.  You should install the following packages::
     # apt-get install live-build librsvg2-bin
 
 In case you have a more recent and unstable version of live-build in your
-repository, you can download the stable .deb package from the live-build
-website and hold it to prevent the automatic update::
+repository, you can either download the stable .deb package from the live-build
+website or compile the relevant git tag from source, e.g.::
+
+    git clone git://live-systems.org/git/live-build.git
+    cd live-build
+    git tag -l | grep ^debian/4
+    git checkout debian/4.0.5-1
+    dpkg-buildpackage -b -uc -us
+    cd ..
+    sudo dpkg -i live-build_4.0.5-1_all.deb
+
+Don't forget to hold the package to prevent the automatic update::
 
     # apt-mark hold live-build
 
@@ -59,4 +69,3 @@ are tracked by git::
 
 
 More information in the `Debian live-build documentation <http://live.debian.net/manual/current/html/live-manual.en.html>`_.
-
