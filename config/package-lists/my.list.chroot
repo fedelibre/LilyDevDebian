@@ -5,6 +5,7 @@ locales
 git gitk openssh-client
 astyle emacs xpdf msmtp
 gedit geany
+less
 
 # Recommended packages are disabled to save space, but some recommended packages
 # are needed to make the iso work correctly.
