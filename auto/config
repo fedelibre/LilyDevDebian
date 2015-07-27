@@ -9,9 +9,9 @@ lb config noauto \
     --distribution jessie \
     --debian-installer live \
     --apt-recommends false \
-	--apt-options "--yes --no-install-recommends" \
-	--apt-secure true \
-	--apt-indices false \
-	--apt-source-archives false \
-	--archive-areas "main contrib non-free" \
-	"${@}"
+    --apt-options "--yes --no-install-recommends" \
+    --apt-secure true \
+    --apt-indices false \
+    --apt-source-archives false \
+    --archive-areas "main contrib non-free" \
+    "${@}"
