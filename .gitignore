@@ -24,6 +24,9 @@ config/source
 
 config/build
 
+config/hooks/[0-9]*.hook.chroot
+config/package-lists/live.list.chroot
+
 source/
 source*.iso
 source*.img
@@ -31,3 +34,5 @@ source*.tar*
 source*.contents
 source*.packages
 source*.zsync
+
+*.patch
