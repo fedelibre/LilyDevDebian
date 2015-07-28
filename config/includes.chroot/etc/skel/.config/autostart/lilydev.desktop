@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=LilyDevSetup
+Exec=lxterminal --working-directory=~ -e ./.lilydev-setup.sh
+StartupNotify=true
+Terminal=true
