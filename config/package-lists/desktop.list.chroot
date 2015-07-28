@@ -1,0 +1,19 @@
+# Minimal desktop and useful extra packages
+bash-completion
+chromium
+emacs
+geany
+git
+gitk
+gksu
+less
+locales
+lxpolkit
+openssh-client
+policykit-1
+sudo
+synaptic
+task-lxde-desktop
+virtualbox-guest-dkms
+virtualbox-guest-x11
+xpdf
