@@ -28,8 +28,8 @@ the live-build website or compile the correct git tag from source:
 
     git clone git://live-systems.org/git/live-build.git
     cd live-build
-    git tag -l | grep ^debian/4
-    git checkout debian/4.0.5-1
+    git branch -a
+    git checkout debian-old-4.0
     dpkg-buildpackage -b -uc -us
     cd ..
     sudo dpkg -i live-build_4.0.5-1_all.deb
@@ -38,6 +38,22 @@ If you installed it manually, don't forget to hold the package to prevent
 the automatic update:
 
     sudo apt-mark hold live-build
+
+In case the [stable live-manual](http://live.debian.net/manual/stable/html/live-manual.en.html)
+is not up-to-date to the real stable version (specified in the About section), you
+must compile the documentation from source.  Let's install the dependencies:
+
+    sudo apt-get install make po4a ruby ruby-nokogiri sisu-complete texlive-generic-recommended
+
+Download the git repository, checkout the latest stable branch (currently 4)
+and make the build:
+
+    git clone git://live-systems.org/git/live-manual.git
+    git branch -a
+    git checkout debian-old-4.0
+    make build PROOF=1
+    x-www-browser build/manual/html/live-manual.en.html
+
 
 ### Usage
 
@@ -56,16 +72,7 @@ The build will generate many directories and files. In order to have a
 clear view of the relevant config files, you can check which files are
 tracked by git:
 
-    $ git ls-tree -r master --name-only
-    .gitignore
-    README.rst
-    auto/build
-    auto/clean
-    auto/config                                  # main settings
-    config/apt/preferences                       # APT pinning
-    config/archives/backports.list.chroot        # debian backports repositories
-    config/includes.chroot/etc/skel/             # contains configuration files for user
-    config/package-lists/my.list.chroot          # list of required packages
+    git ls-tree -r master --name-only
 
 More information in the [Debian live-build
-documentation](http://live.debian.net/manual/current/html/live-manual.en.html).
+documentation](http://live.debian.net/manual/stable/html/live-manual.en.html).
