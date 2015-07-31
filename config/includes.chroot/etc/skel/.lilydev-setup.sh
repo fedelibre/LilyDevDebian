@@ -24,5 +24,8 @@ git clone git://git.sv.gnu.org/lilypond.git lilypond-git
 # This script should be run automatically on the first login only
 rm ~/.config/autostart/lilydev.desktop
 
+# Append LilyPond variables to ~/.bashrc
+cat /etc/skel/.lilypond-bashrc >> ~/.bashrc
+
 echo "Configuration completed successfully!"
 read -p "Press enter to close the wizard."
