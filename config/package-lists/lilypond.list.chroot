@@ -8,6 +8,7 @@ debhelper
 emacs-intl-fonts
 flex
 fontforge
+fonts-texgyre
 gettext
 ghostscript
 groff
