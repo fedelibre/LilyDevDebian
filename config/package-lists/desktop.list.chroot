@@ -11,6 +11,7 @@ locales
 lxpolkit
 openssh-client
 policykit-1
+spice-vdagent
 sudo
 synaptic
 task-lxde-desktop
