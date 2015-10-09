@@ -63,6 +63,11 @@ else
 fi
 unset color_prompt force_color_prompt
 
+# Shorten the prompt, add git branch and current status
+export GIT_PS1_SHOWDIRTYSTATE=true
+export GIT_PS1_SHOWUNTRACKEDFILES=true
+export PS1='[\W$(declare -F __git_ps1 &>/dev/null && __git_ps1 " (%s)")]\$ '
+
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm*|rxvt*)
