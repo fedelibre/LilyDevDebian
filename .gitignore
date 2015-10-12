@@ -6,6 +6,7 @@ binary*.contents
 binary*.packages
 binary*.zsync
 live-image-*
+lilydev-*
 
 .build/
 build.log
@@ -21,8 +22,6 @@ config/bootstrap
 config/chroot
 config/common
 config/source
-
-config/build
 
 config/hooks/[0-9]*.hook.chroot
 config/package-lists/live.list.chroot
