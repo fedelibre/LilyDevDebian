@@ -1,5 +1,6 @@
 # Minimal desktop and useful extra packages
 bash-completion
+ca-certificates
 chromium
 emacs
 geany
