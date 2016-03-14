@@ -38,6 +38,7 @@ texlive-lang-cyrillic
 texlive-latex-base
 texlive-latex-recommended
 texlive-metapost
+texlive-xetex
 ttf-dejavu
 ttf-freefont
 ttf-kochi-gothic
