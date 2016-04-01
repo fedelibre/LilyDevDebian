@@ -120,8 +120,8 @@ export LILYPOND_GIT=~/lilypond-git
 export LILYPOND_BUILD_DIR=~/lilypond-git/build
 export LILYPOND_WEB_MEDIA_GIT=~/lilypond-extra
 
-# 'git cl': command to upload LilyPond patches on Rietveld
-PATH=~/git-cl:"${PATH}"
+# Add 'git cl' and auxiliar scripts to PATH
+PATH=~/git-cl:$LILYPOND_GIT/scripts/auxiliar:"${PATH}"
 
 # Default editor for terminal and git commit
 export EDITOR=/usr/bin/nano
