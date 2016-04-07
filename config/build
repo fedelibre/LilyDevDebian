@@ -6,5 +6,5 @@ Mirror-Bootstrap: http://ftp.debian.org/debian/
 
 [FIXME]
 Configuration-Version: 4.0.3
-Name: lilydev-4.0
+Name: lilydev-4.1
 Type: iso-hybrid
