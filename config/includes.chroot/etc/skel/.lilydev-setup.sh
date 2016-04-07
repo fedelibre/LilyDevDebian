@@ -1,5 +1,11 @@
 #!/bin/bash
-echo "This wizard will help you to setup your Git configuration."
+echo "This wizard will help you to setup your Git configuration.\n"
+
+if [ -f ~/.gitconfig ]; then
+  printf "A file configuration already exists. If you proceed, it will be overwritten.\nPress Ctrl+C to cancel/Press enter to proceed: "
+  read _
+fi
+
 echo -n "Please enter your name and surname: "
 read NAME
 git config --global user.name "$NAME"
@@ -9,6 +15,13 @@ git config --global user.email "$EMAIL"
 echo "Your commit messages will be signed as '$NAME <$EMAIL>'."
 git config --global color.ui auto
 echo
+
+# In case this script is run again after first configuration, skip
+# this part if these directories exist.
+if [ -d ~/git-cl -a ~/lilypond-git -a ~/lilypond-extra ]; then
+  printf "You've already downloaded the repositories. Press Ctrl+C close the wizard: "
+read _
+fi
 
 echo "Now we'll download the repositories needed to contribute to LilyPond development. Proceed only if you have a working Internet connection."
 read -p "Press Enter to continue. "
@@ -22,7 +35,9 @@ echo "Downloading lilypond-git repository..."
 git clone git://git.sv.gnu.org/lilypond.git lilypond-git
 
 # This script should be run automatically on the first login only
-rm ~/.config/autostart/lilydev.desktop
+if [ -f ~/.config/autostart/lilydev.desktop ]; then
+  rm ~/.config/autostart/lilydev.desktop
+fi
 
 echo "Configuration completed successfully!"
 read -p "Press enter to close the wizard."
