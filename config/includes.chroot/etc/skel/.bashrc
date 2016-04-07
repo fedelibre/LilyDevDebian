@@ -114,6 +114,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# This is useful when installing the LilyPond binary
+if [ -d $HOME/bin ]; then
+    export PATH="$HOME/bin:$PATH"
+fi
 
 # Environment variables needed to build LilyPond
 export LILYPOND_GIT=~/lilypond-git
