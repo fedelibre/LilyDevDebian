@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "This wizard will help you to setup your Git configuration.\n"
+printf "This wizard will help you to setup your Git configuration.\n\n"
 
 if [ -f ~/.gitconfig ]; then
   printf "A file configuration already exists. If you proceed, it will be overwritten.\nPress Ctrl+C to cancel/Press enter to proceed: "
