@@ -23,6 +23,7 @@ libfreetype6-dev
 libgmp3-dev
 libltdl-dev
 libpango1.0-dev
+lmodern
 m4
 mftrace
 netpbm
