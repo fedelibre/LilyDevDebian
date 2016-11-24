@@ -16,9 +16,10 @@ language and follow the install instructions.
 
 ### Installation
 
-LilyDev is built with the latest stable version of [Debian
-live-build](http://live.debian.net/), i.e. the version in the latest
-stable release of Debian. You should install the following packages:
+LilyDev is built with the latest stable version of
+[Debian live-build](http://debian-live.alioth.debian.org/live-build/),
+i.e. the version in the latest stable release of Debian. You should
+install the following packages:
 
     sudo apt-get install live-build librsvg2-bin
 
@@ -26,7 +27,7 @@ In case you have a more recent and unstable version of live-build in
 your repository, you can either download the stable .deb package from
 the live-build website or compile the correct git tag from source:
 
-    git clone git://live-systems.org/git/live-build.git
+    git clone git://http://anonscm.debian.org/git/debian-live/live-build.git
     cd live-build
     git branch -a
     git checkout debian-old-4.0
@@ -39,7 +40,7 @@ the automatic update:
 
     sudo apt-mark hold live-build
 
-In case the [stable live-manual](http://live.debian.net/manual/stable/html/live-manual.en.html)
+In case the [stable live-manual](http://debian-live.alioth.debian.org/live-manual/stable/manual/html/live-manual.en.html)
 is not up-to-date to the real stable version (specified in the About section), you
 must compile the documentation from source.  Let's install the dependencies:
 
@@ -48,7 +49,7 @@ must compile the documentation from source.  Let's install the dependencies:
 Download the git repository, checkout the latest stable branch (currently 4)
 and make the build:
 
-    git clone git://live-systems.org/git/live-manual.git
+    git clone git://http://anonscm.debian.org/git/debian-live/live-manual.git
     git branch -a
     git checkout debian-old-4.0
     make build PROOF=1
@@ -75,4 +76,4 @@ tracked by git:
     git ls-tree -r master --name-only
 
 More information in the [Debian live-build
-documentation](http://live.debian.net/manual/stable/html/live-manual.en.html).
+documentation](http://debian-live.alioth.debian.org/live-manual/stable/manual/html/live-manual.en.html).
