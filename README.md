@@ -27,7 +27,7 @@ In case you have a more recent and unstable version of live-build in
 your repository, you can either download the stable .deb package from
 the live-build website or compile the correct git tag from source:
 
-    git clone git://http://anonscm.debian.org/git/debian-live/live-build.git
+    git clone git://anonscm.debian.org/git/debian-live/live-build.git
     cd live-build
     git branch -a
     git checkout debian-old-4.0
@@ -49,7 +49,7 @@ must compile the documentation from source.  Let's install the dependencies:
 Download the git repository, checkout the latest stable branch (currently 4)
 and make the build:
 
-    git clone git://http://anonscm.debian.org/git/debian-live/live-manual.git
+    git clone git://anonscm.debian.org/git/debian-live/live-manual.git
     git branch -a
     git checkout debian-old-4.0
     make build PROOF=1
