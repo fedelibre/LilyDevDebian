@@ -14,7 +14,8 @@ ghostscript
 groff
 gsfonts
 gsfonts-x11
-guile-1.8-dev
+#guile-1.8-dev
+guile-2.0-dev
 g++
 help2man
 imagemagick
