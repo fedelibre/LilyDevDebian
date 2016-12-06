@@ -1,10 +1,10 @@
 [Image]
 Architecture: i386
 Archive-Areas: main contrib
-Distribution: jessie
+Distribution: stretch
 Mirror-Bootstrap: http://ftp.debian.org/debian/
 
 [FIXME]
-Configuration-Version: 4.0.3
-Name: lilydev-4.2
+Configuration-Version: 5.0~a11-1
+Name: lilydev-5.0
 Type: iso-hybrid

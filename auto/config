@@ -6,7 +6,7 @@ lb config noauto \
     --architectures i386 \
     --linux-flavours 686-pae \
     --linux-packages "linux-image linux-headers" \
-    --distribution jessie \
+    --distribution stretch \
     --debian-installer live \
     --apt-recommends false \
     --apt-secure true \
