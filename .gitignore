@@ -23,7 +23,8 @@ config/chroot
 config/common
 config/source
 
-config/hooks/[0-9]*.hook.chroot
+config/hooks/live/[0-9]*.hook.chroot
+config/hooks/normal/[0-9]*.hook.chroot
 config/package-lists/live.list.chroot
 
 source/
