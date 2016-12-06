@@ -1,8 +1,8 @@
 # Minimal desktop and useful extra packages
 bash-completion
 ca-certificates
-chromium
 emacs
+firefox-esr
 geany
 git
 gitk
@@ -15,7 +15,7 @@ policykit-1
 spice-vdagent
 sudo
 synaptic
-task-lxde-desktop
+task-lxqt-desktop
 virtualbox-guest-dkms
 virtualbox-guest-x11
 xpdf
