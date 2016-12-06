@@ -1,8 +1,0 @@
-Package: guile-2.0*
-Pin: release a=testing
-Pin-Priority: 900
-
-Package: *
-Pin: release a=testing
-Pin-Priority: 1
-
