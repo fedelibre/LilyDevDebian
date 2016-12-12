@@ -8,6 +8,7 @@ lb config noauto \
     --linux-packages "linux-image linux-headers" \
     --distribution stretch \
     --debian-installer live \
+    --debian-installer-distribution daily \
     --apt-recommends false \
     --apt-secure true \
     --apt-indices false \
