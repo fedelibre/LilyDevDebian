@@ -8,6 +8,8 @@ debhelper
 emacs-intl-fonts
 flex
 fontforge
+fonts-dejavu
+fonts-freefont-ttf
 fonts-texgyre
 gettext
 ghostscript
@@ -41,8 +43,6 @@ texlive-latex-base
 texlive-latex-recommended
 texlive-metapost
 texlive-xetex
-ttf-dejavu
-ttf-freefont
 xfonts-intl-arabic
 xfonts-intl-asian
 xfonts-intl-chinese
