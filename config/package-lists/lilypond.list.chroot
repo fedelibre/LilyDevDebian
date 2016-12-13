@@ -10,6 +10,8 @@ flex
 fontforge
 fonts-dejavu
 fonts-freefont-ttf
+fonts-ipafont-gothic
+fonts-ipafont-mincho
 fonts-texgyre
 gettext
 ghostscript
