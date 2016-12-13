@@ -1,0 +1,7 @@
+Package: virtualbox-guest*
+Pin: release a=sid
+Pin-Priority: 900
+
+Package: *
+Pin: release a=sid
+Pin-Priority: 1
