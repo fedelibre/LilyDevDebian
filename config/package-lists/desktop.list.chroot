@@ -7,8 +7,10 @@ geany
 git
 gitk
 gksu
+gvfs-backends
 less
 locales
+lxqt-sudo
 openssh-client
 policykit-1
 qterminal
