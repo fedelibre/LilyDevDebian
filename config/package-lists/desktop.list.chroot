@@ -9,9 +9,10 @@ gitk
 gksu
 less
 locales
-lxpolkit
 openssh-client
 policykit-1
+qterminal
+qterminal-l10n
 spice-vdagent
 sudo
 synaptic
