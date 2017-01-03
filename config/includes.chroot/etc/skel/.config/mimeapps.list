@@ -1,4 +1,4 @@
 [Default Applications]
 inode/directory=pcmanfm.desktop
-text/html=chromium.desktop
+text/html=firefox-esr.desktop
 text/plain=geany.desktop
