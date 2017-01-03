@@ -1,6 +1,5 @@
 [Desktop Entry]
 Type=Application
 Name=LilyDevSetup
-Exec=qterminal --workdir=~ -e ./.lilydev-setup.sh
+Exec=qterminal --workdir $HOME -e ./.lilydev-setup.sh
 StartupNotify=true
-Terminal=true
