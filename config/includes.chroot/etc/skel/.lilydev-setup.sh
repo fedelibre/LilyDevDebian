@@ -13,6 +13,9 @@ echo -n "Please enter your email address: "
 read EMAIL
 git config --global user.email "$EMAIL"
 echo "Your commit messages will be signed as '$NAME <$EMAIL>'."
+echo "Default editor to write commit messages is currently nano. You can now confirm it or choose another text editor [emacs|geany|nano]: "
+read GITEDITOR
+git config --global core.editor $GITEDITOR
 git config --global color.ui auto
 echo
 
