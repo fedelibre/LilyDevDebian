@@ -1,4 +1,5 @@
 # Minimal desktop and useful extra packages
+aptitude
 bash-completion
 ca-certificates
 emacs
@@ -12,6 +13,7 @@ less
 locales
 lxqt-sudo
 openssh-client
+oxygen-icon-theme
 policykit-1
 qterminal
 qterminal-l10n
