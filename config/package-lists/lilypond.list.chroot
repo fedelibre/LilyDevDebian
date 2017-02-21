@@ -23,6 +23,7 @@ guile-2.0-dev
 g++
 help2man
 imagemagick
+libfl-dev
 libfontconfig1-dev
 libfreetype6-dev
 libgmp3-dev
