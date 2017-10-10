@@ -37,6 +37,36 @@ git clone git://github.com/gperciva/lilypond-extra/
 echo "Downloading lilypond-git repository..."
 git clone git://git.sv.gnu.org/lilypond.git lilypond-git
 
+# LilyPond docs need Greek and Cyrillic fonts from Ghostscript URW35.
+# Eventually, they may be inlcuded in a Linux distro package.
+# As of October 2016, there are 12 font files needed from a larger git
+# repository. We want just the 12 files, so download each with wget.
+
+# Font file names:
+URW35FONTS=\
+"C059-BdIta.otf
+C059-Bold.otf
+C059-Italic.otf
+C059-Roman.otf
+NimbusMonoPS-Bold.otf
+NimbusMonoPS-BoldItalic.otf
+NimbusMonoPS-Italic.otf
+NimbusMonoPS-Regular.otf
+NimbusSans-Bold.otf
+NimbusSans-BoldOblique.otf
+NimbusSans-Oblique.otf
+NimbusSans-Regular.otf"
+
+# Download each font file
+for font in $URW35FONTS
+do
+  # The URL GET parameter f=$font will be replaced with the font file name
+  WGETURL="http://git.ghostscript.com/?p=urw-core35-fonts.git;a=blob;hb=79bcdfb34fbce12b592cce389fa7a19da6b5b018;f=$font;"
+  # wget options: less verbose, create directory, don't make host directory,
+  # use file name from HTTP header, set download location
+  wget -nv -x -nH --content-disposition -P ~/.local/share/fonts "$WGETURL"
+done
+
 # This script should be run automatically on the first login only
 if [ -f ~/.config/autostart/lilydev.desktop ]; then
   rm ~/.config/autostart/lilydev.desktop
