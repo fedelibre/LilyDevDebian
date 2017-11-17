@@ -6,6 +6,7 @@ curl
 dblatex
 debhelper
 emacs-intl-fonts
+extractpdfmark
 flex
 fontforge
 fonts-dejavu
