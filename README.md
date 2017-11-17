@@ -4,6 +4,9 @@ LilyDev is an ISO image containing a basic Debian operating system and
 all the dependencies, settings and repositories required to start
 contributing to [LilyPond](http://lilypond.org/).
 
+This repository will be discontinued. New versions of LilyDev will be built
+and distributed on [LilyDevOS repository](https://github.com/fedelibre/LilyDevOS/).
+
 ## Notes for users
 
 The image contains a 686-pae kernel, so you have to enable PAE in
@@ -11,6 +14,18 @@ VirtualBox preferences: *System\>Processor\>Extended features: Enable PAE/NX*.
 
 When you launch the ISO, choose the graphical install, then your
 language and follow the install instructions.
+
+As guile-1.8 package has been removed from Debian repositories since
+Stretch (debian 9), by default only guile-2 is installed in LilyDev 5.
+Currently you need to checkout a specific branch to be able to build
+lilypond:
+
+    cd $LILYPOND_GIT
+    git checkout dev/guile-v2-work
+    ./autogen.sh --noconfigure
+    mkdir build && cd build
+    ../configure --enable-guile2
+    make
 
 ## Notes for maintainers
 
