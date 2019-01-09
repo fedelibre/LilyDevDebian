@@ -1,11 +1,12 @@
-# LilyDev
+# LilyDevDebian
+
+This repository, renamed LilyDevDebian, is discontinued. New versions of LilyDev
+will be built and distributed on [LilyDev repository](https://github.com/fedelibre/LilyDev/)
+using modern and more flexible technologies.
 
 LilyDev is an ISO image containing a basic Debian operating system and
 all the dependencies, settings and repositories required to start
 contributing to [LilyPond](http://lilypond.org/).
-
-This repository will be discontinued. New versions of LilyDev will be built
-and distributed on [LilyDevOS repository](https://github.com/fedelibre/LilyDevOS/).
 
 ## Notes for users
 
